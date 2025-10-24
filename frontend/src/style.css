@@ -1,8 +1,21 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Reset global - enlever marges et paddings par défaut */
+/** Reinitialisation des marges **/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@layer components {
+  /** Naviguation - liens **/
+  .nav-link {
+    @apply text-agency-secondary no-underline font-medium px-4 py-2 rounded transition-all duration-300 inline-block hover:bg-agency-primary hover:text-agency-light hover:-translate-y-0.5;
+  }
+
+  .nav-link-block {
+    @apply text-agency-secondary no-underline font-medium px-4 py-2 rounded transition-all duration-300 block hover:bg-agency-primary hover:text-agency-light hover:-translate-y-0.5;
+  }
 }

@@ -4,13 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Couleurs de l'agence
-        agency: {
-          primary: "#79c7c5",
-          secondary: "#4db6ac",
-          dark: "#123a2d",
-          light: "#e0f2f1",
-        },
+        "agency-primary": "#79c7c5",
+        "agency-secondary": "#2d5a4f",
+        "agency-dark": "#123a2d",
+        "agency-light": "#e0f2f1",
       },
     },
   },
