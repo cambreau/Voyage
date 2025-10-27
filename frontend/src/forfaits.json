@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nom": "Séjour à Paris",
+    "description": "Découvrez la Ville Lumière avec ses monuments emblématiques, ses musées renommés et sa gastronomie exceptionnelle. Un voyage culturel inoubliable au cœur de la France.",
+    "prix": 999,
+    "categorie": 2
+  },
+  {
+    "id": 2,
+    "nom": "Escapade à la Réunion",
+    "description": "Explorez l'île intense avec ses paysages volcaniques spectaculaires, ses plages de sable noir et ses forêts tropicales. Une aventure unique entre mer et montagne.",
+    "prix": 1449,
+    "categorie": 5
+  },
+  {
+    "id": 3,
+    "nom": "Week-end gastronomique à Lyon",
+    "description": "Savourez la capitale gastronomique française avec ses bouchons traditionnels, ses marchés locaux et ses chefs étoilés. Un voyage culinaire d'exception.",
+    "prix": 719,
+    "categorie": 4
+  },
+  {
+    "id": 4,
+    "nom": "Randonnée en Corse",
+    "description": "Parcourez les sentiers du GR20, l'un des plus beaux treks d'Europe. Entre mer turquoise et montagnes sauvages, découvrez la beauté préservée de l'île de Beauté.",
+    "prix": 1779,
+    "categorie": 3
+  },
+  {
+    "id": 5,
+    "nom": "Plages de la Côte d'Azur",
+    "description": "Détendez-vous sur les plus belles plages de la Méditerranée française. De Nice à Saint-Tropez, profitez du soleil et de l'eau cristalline.",
+    "prix": 829,
+    "categorie": 1
+  },
+  {
+    "id": 6,
+    "nom": "Châteaux de la Loire",
+    "description": "Partez à la découverte des plus beaux châteaux de la Renaissance française. Un voyage dans l'histoire au cœur de la Vallée de la Loire.",
+    "prix": 659,
+    "categorie": 6
+  },
+  {
+    "id": 7,
+    "nom": "Ski dans les Alpes",
+    "description": "Glissez sur les pistes enneigées des plus belles stations alpines. Entre sport et détente, profitez de la montagne en hiver.",
+    "prix": 999,
+    "categorie": 7
+  },
+  {
+    "id": 8,
+    "nom": "Spa et bien-être en Auvergne",
+    "description": "Offrez-vous une parenthèse détente dans les thermes d'Auvergne. Entre soins relaxants et paysages volcaniques, retrouvez votre équilibre.",
+    "prix": 609,
+    "categorie": 8
+  }
+]
