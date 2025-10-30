@@ -4,23 +4,25 @@
   >
     <nav class="max-w-6xl mx-auto px-2 flex justify-between items-center">
       <h1 class="text-2xl font-bold tracking-wide">
-        <a
-          href="#accueil"
+        <router-link
+          to="/"
           class="text-agency-secondary hover:text-agency-primary transition-colors duration-300"
         >
           Nomadica
-        </a>
+        </router-link>
       </h1>
 
       <ul class="hidden md:flex list-none">
         <li class="mr-8">
-          <a href="#accueil" class="nav-link">Accueil</a>
+          <router-link to="/" class="nav-link">Accueil</router-link>
         </li>
         <li class="mr-8">
-          <a href="#forfaits" class="nav-link">Forfaits</a>
+          <router-link to="/forfaits" class="nav-link">Forfaits</router-link>
         </li>
         <li>
-          <a href="#apropos" class="nav-link">À propos de l'agence</a>
+          <router-link to="/apropos" class="nav-link"
+            >À propos de l'agence</router-link
+          >
         </li>
       </ul>
 
@@ -50,19 +52,19 @@
     >
       <ul class="flex flex-col space-y-4 list-none px-2">
         <li>
-          <a href="#accueil" class="nav-link-block" @click="closeMobileMenu">
-            Accueil
-          </a>
+          <router-link to="/" class="nav-link" @click="toggleMobileMenu"
+            >Accueil</router-link
+          >
         </li>
         <li>
-          <a href="#forfaits" class="nav-link-block" @click="closeMobileMenu">
-            Forfaits
-          </a>
+          <router-link to="/forfaits" class="nav-link" @click="toggleMobileMenu"
+            >Forfaits</router-link
+          >
         </li>
         <li>
-          <a href="#apropos" class="nav-link-block" @click="closeMobileMenu">
-            À propos de l'agence
-          </a>
+          <router-link to="/apropos" class="nav-link" @click="toggleMobileMenu"
+            >À propos de l'agence</router-link
+          >
         </li>
       </ul>
     </nav>
@@ -80,9 +82,6 @@ export default {
   methods: {
     toggleMobileMenu() {
       this.isMobileMenuOpen = !this.isMobileMenuOpen;
-    },
-    closeMobileMenu() {
-      this.isMobileMenuOpen = false;
     },
   },
 };

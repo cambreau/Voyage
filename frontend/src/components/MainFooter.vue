@@ -5,12 +5,12 @@
     >
       <div class="flex items-baseline gap-3">
         <h1 class="text-2xl font-bold tracking-wide">
-          <a
-            href="#accueil"
+          <router-link
+            to="/"
             class="text-agency-secondary hover:text-agency-primary transition-colors duration-300"
           >
             Nomadica
-          </a>
+          </router-link>
         </h1>
         <span
           class="text-agency-secondary text-sm opacity-80 font-light tracking-wider uppercase"
@@ -22,13 +22,15 @@
       <nav class="flex justify-center">
         <ul class="list-none p-0 m-0 flex flex-row gap-6">
           <li>
-            <a href="#accueil" class="nav-link">Accueil</a>
+            <router-link to="/" class="nav-link">Accueil</router-link>
           </li>
           <li>
-            <a href="#forfaits" class="nav-link">Forfaits</a>
+            <router-link to="/forfaits" class="nav-link">Forfaits</router-link>
           </li>
           <li>
-            <a href="#apropos" class="nav-link">À propos de l'agence</a>
+            <router-link to="/apropos" class="nav-link"
+              >À propos de l'agence</router-link
+            >
           </li>
         </ul>
       </nav>

@@ -12,10 +12,6 @@
 @layer components {
   /** Naviguation - liens **/
   .nav-link {
-    @apply text-agency-secondary no-underline font-medium px-4 py-2 rounded transition-all duration-300 inline-block hover:bg-agency-primary hover:text-agency-light hover:-translate-y-0.5;
-  }
-
-  .nav-link-block {
-    @apply text-agency-secondary no-underline font-medium px-4 py-2 rounded transition-all duration-300 block hover:bg-agency-primary hover:text-agency-light hover:-translate-y-0.5;
+    @apply text-agency-secondary no-underline font-medium px-4 py-2 rounded transition-all duration-300 inline-block hover:bg-agency-primary hover:text-agency-light hover:-translate-y-0.5 md:w-auto w-full block md:inline-block;
   }
 }

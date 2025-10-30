@@ -2,7 +2,7 @@
 module.exports = {
   HOST: "localhost",
   USER: "root",
-  PASSWORD: "",
+  PASSWORD: "admin",
   DB: "nomadica_db",
   dialect: "mysql",
 };

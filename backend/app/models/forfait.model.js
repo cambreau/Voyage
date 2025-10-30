@@ -25,7 +25,7 @@ module.exports = (sequelize, Sequelize) => {
     // URL de l'image du forfait
     image: {
       type: Sequelize.STRING,
-      allowNull: true,
+      allowNull: false,
     },
     // Identifiant de la catégorie associée
     categorieId: {
